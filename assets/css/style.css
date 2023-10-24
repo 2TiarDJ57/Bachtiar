@@ -1,0 +1,112 @@
+@keyframes bergerak {
+    0% {
+        transform: translateY(0px);
+        
+    }
+    50% {
+        transform: translateY(10px);
+        
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Animasi */
+.skill .img-skill img{
+    animation: bergerak 4s infinite;
+}
+
+a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+
+body {
+    font-family: 'Playpen Sans', 'Roboto Mono';
+    /* background-color: #eaeaea; */
+}
+
+nav {
+    border-bottom: 1px solid grey;
+}
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+nav .brand h1 {
+    color: cadetblue;
+    text-shadow: 5px 5px 5px 5px grey;
+    font-weight: bold;
+}
+
+main h1 {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'Roboto Mono';
+}
+
+main p {
+    font-family: 'Roboto Mono';
+}
+
+main a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+main img{
+    border-radius: 100%;
+    border: 1px solid grey;
+    box-shadow: 5px 10px 5px grey;
+    background: linear-gradient(cadetblue, black);
+    max-width: 400px;
+}
+
+#tentang-saya h1{
+    color: cadetblue;
+}
+
+.img-skill {
+    width: 50px;
+    padding: 35px;
+    background: linear-gradient(cadetblue, white);
+    box-sizing: content-box;
+    border-radius: 20px;
+    margin: 5px 5px;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+.img-skill img {
+    width: 50px;
+    
+}
+
+#portfolio h1 {
+    color: cadetblue;
+}
+
+.img-portfolio img{
+    max-width: 500px;
+}
+
+.img-portfolio img:hover{
+    transform: scale(1.08);
+    transition: 0.4s ease;
+}
+
+.portfolio {
+    overflow: hidden;
+    
+}
+
+.portfolio .detail img{
+    width: 25px;
+}
